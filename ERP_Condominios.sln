@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{19891D18-0669-4C16-8710-F9882280DB31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application Services", "2 - Application Services", "{A8A88AF9-0B6B-4682-985D-D9099BF926F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Entities Services", "3 - Entities Services", "{00A845BF-D938-4A77-86C9-99477EF3B6AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data services", "4 - Data services", "{555823C3-CF7F-44DD-9108-CFBDBD34578A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - External Services", "5 - External Services", "{D9E2F021-E940-4945-89B5-5CA619C8E684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - CrossCutting", "6 - CrossCutting", "{541625F0-AB71-4E1E-B20D-4ACEE23C7590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "CrossCutting\CrossCutting.csproj", "{D2A55EF2-21F0-4D67-B885-4C119F0EDA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalServices", "ExternalServices\ExternalServices.csproj", "{0DE7872A-BDEB-4081-B3FF-74CCF29034E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServices", "DataServices\DataServices.csproj", "{48A416D0-AB46-443C-B492-685F13270F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesServices", "EntitiesServices\EntitiesServices.csproj", "{E297C975-0336-42D0-A247-5B293A71783F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationServices", "ApplicationServices\ApplicationServices.csproj", "{BE2A7180-0375-4BBE-BED0-449165D46A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPCondominios_Presentation", "ERPCondominios_Presentation\ERPCondominios_Presentation.csproj", "{55097498-3D5D-4C08-A2F7-01D51A166BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A55EF2-21F0-4D67-B885-4C119F0EDA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A55EF2-21F0-4D67-B885-4C119F0EDA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A55EF2-21F0-4D67-B885-4C119F0EDA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A55EF2-21F0-4D67-B885-4C119F0EDA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE7872A-BDEB-4081-B3FF-74CCF29034E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE7872A-BDEB-4081-B3FF-74CCF29034E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE7872A-BDEB-4081-B3FF-74CCF29034E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE7872A-BDEB-4081-B3FF-74CCF29034E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A416D0-AB46-443C-B492-685F13270F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A416D0-AB46-443C-B492-685F13270F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A416D0-AB46-443C-B492-685F13270F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A416D0-AB46-443C-B492-685F13270F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E297C975-0336-42D0-A247-5B293A71783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E297C975-0336-42D0-A247-5B293A71783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E297C975-0336-42D0-A247-5B293A71783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E297C975-0336-42D0-A247-5B293A71783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2A7180-0375-4BBE-BED0-449165D46A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2A7180-0375-4BBE-BED0-449165D46A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2A7180-0375-4BBE-BED0-449165D46A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2A7180-0375-4BBE-BED0-449165D46A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55097498-3D5D-4C08-A2F7-01D51A166BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55097498-3D5D-4C08-A2F7-01D51A166BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55097498-3D5D-4C08-A2F7-01D51A166BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55097498-3D5D-4C08-A2F7-01D51A166BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2A55EF2-21F0-4D67-B885-4C119F0EDA63} = {541625F0-AB71-4E1E-B20D-4ACEE23C7590}
+		{0DE7872A-BDEB-4081-B3FF-74CCF29034E1} = {D9E2F021-E940-4945-89B5-5CA619C8E684}
+		{48A416D0-AB46-443C-B492-685F13270F73} = {555823C3-CF7F-44DD-9108-CFBDBD34578A}
+		{E297C975-0336-42D0-A247-5B293A71783F} = {00A845BF-D938-4A77-86C9-99477EF3B6AC}
+		{BE2A7180-0375-4BBE-BED0-449165D46A3E} = {A8A88AF9-0B6B-4682-985D-D9099BF926F1}
+		{55097498-3D5D-4C08-A2F7-01D51A166BD4} = {19891D18-0669-4C16-8710-F9882280DB31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C299A6B9-30EC-4DD7-A356-8FFC89F7BF02}
+	EndGlobalSection
+EndGlobal
