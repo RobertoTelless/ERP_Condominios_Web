@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using EntitiesServices.Model;
 
-namespace OdontoWeb.ViewModels
+namespace ErpCondominio.ViewModels
 {
     public class TipoPessoaViewModel
     {

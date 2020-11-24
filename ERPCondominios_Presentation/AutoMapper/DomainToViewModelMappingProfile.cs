@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using AutoMapper;
 using EntitiesServices.Model;
-using OdontoWeb.ViewModels;
+using ErpCondominio.ViewModels;
 
 namespace MvcMapping.Mappers
 {
@@ -16,15 +16,11 @@ namespace MvcMapping.Mappers
             CreateMap<USUARIO, UsuarioLoginViewModel>();
             CreateMap<LOG, LogViewModel>();
             CreateMap<CONFIGURACAO, ConfiguracaoViewModel>();
-            CreateMap<MATRIZ, MatrizViewModel>();
-            CreateMap<FILIAL, FilialViewModel>();
             CreateMap<CARGO, CargoViewModel>();
             CreateMap<NOTICIA, NoticiaViewModel>();
             CreateMap<NOTICIA_COMENTARIO, NoticiaComentarioViewModel>();
             CreateMap<NOTIFICACAO, NotificacaoViewModel>();
-            CreateMap<SEXO, SexoViewModel>();
             CreateMap<TIPO_PESSOA, TipoPessoaViewModel>();
-            CreateMap<REGIME_TRIBUTARIO, RegimeTributarioViewModel>();
             CreateMap<UNIDADE, UnidadeViewModel>();
             CreateMap<TEMPLATE, TemplateViewModel>();
             CreateMap<TAREFA, TarefaViewModel>();
